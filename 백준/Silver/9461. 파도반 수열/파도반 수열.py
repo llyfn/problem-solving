@@ -1,4 +1,4 @@
 _,*l=map(int,open(0))
-p=[1]*3+[0]*100
-for i in range(3,100):p[i]=p[i-2]+p[i-3]
+p=[1]*100
+for i in range(97):p[i+3]=p[i+1]+p[i]
 for i in l:print(p[i-1])
