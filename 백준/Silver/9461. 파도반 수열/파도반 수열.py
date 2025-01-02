@@ -1,4 +1,4 @@
-l = [int(input()) for _ in range(int(input()))]
-p = [1, 1, 1] + [0] * max(l)
-for i in range(3, len(p)): p[i] = p[i-2] + p[i-3]
-print(*[p[i - 1] for i in l], sep='\n')
+_,*l=map(int,open(0))
+p=[1]*3+[0]*100
+for i in range(3,100):p[i]=p[i-2]+p[i-3]
+for i in l:print(p[i-1])
