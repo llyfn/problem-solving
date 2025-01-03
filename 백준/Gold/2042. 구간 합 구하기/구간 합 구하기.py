@@ -16,15 +16,15 @@ def update(i, v):
     while i: tree[i] += d; i //= 2
 
 def isum(l, r):
-    a = []
+    a = 0
     l += p - 1; r += p - 1
     while l < r:
-        if l & 1: a += tree[l],
-        if not r & 1: a += tree[r],
+        if l & 1: a += tree[l]
+        if not r & 1: a += tree[r]
         l = (l + 1) // 2
         r = (r - 1) // 2
-    if l == r: a += tree[l],
-    return sum(a)
+    if l == r: a += tree[l]
+    return a
 
 for _ in range(m + k):
     a, b, c = map(int, I().split())
