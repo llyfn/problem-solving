@@ -1,9 +1,9 @@
-n=int(input())
+input()
 s=[*map(int,input().split())]
-a=b=c=r=i=m=0
-for i in range(n):
+a=b=c=r=m=0
+for i in s:
     m=max(m,c)
-    if s[i]==a:a=b;b=s[i];c+=1;r=1
-    elif s[i]==b:c+=1;r+=1
-    else:a=b;b=s[i];c=r+1;r=1
+    if i==a:a=b;b=i;c+=1;r=1
+    elif i==b:c+=1;r+=1
+    else:a=b;b=i;c=r+1;r=1
 print(max(m,c))
