@@ -1,0 +1,1 @@
+for _ in range(int(input())):print(f'{(i:=input())[0]}{i[-1]}')
