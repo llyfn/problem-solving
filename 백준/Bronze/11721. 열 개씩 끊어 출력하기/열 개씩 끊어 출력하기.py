@@ -1,0 +1,1 @@
+for i in range(0,len(s:=input()),10):print(s[i:i+10])
