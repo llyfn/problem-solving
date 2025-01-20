@@ -1,7 +1,5 @@
-I=lambda:map(int,input().split())
-for _ in range(next(I())):
-    n,=I()
-    a=[*I()];b=[*I()]
-    d=[[0]*2]*2
-    for i in range(n):d+=[a[i]+max(d[i+1][1],max(d[i])),b[i]+max(d[i+1][0],max(d[i]))],
-    print(max(d[-1]))
+I=lambda:[*map(int,input().split())]
+for _ in range(*I()):
+    I();a=b=c=d=0
+    for p,q in zip(I(),I()):x=p+max(b,c,d);y=q+max(a,c,d);c=a;d=b;a=x;b=y
+    print(max(a,b))
