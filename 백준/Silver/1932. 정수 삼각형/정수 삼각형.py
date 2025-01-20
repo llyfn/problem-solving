@@ -1,11 +1,7 @@
-import sys
-I=lambda:map(int,sys.stdin.readline().split())
+I=lambda:map(int,input().split())
 n,=I()
-d=[[*I()]]
-for i in range(1,n):
-    a=[*I()];b=[0]*len(a)
-    for j in range(i):
-        b[j]=max(b[j],d[-1][j]+a[j])
-        b[j+1]=max(b[j+1],d[-1][j]+a[j+1])
-    d+=b,
-print(max(d[-1]))
+d=[0,0]
+for _ in range(n):
+    l=[*I()]
+    d=[0,*[l[i]+max(d[i],d[i+1])for i in range(len(l))],0]
+print(max(d))
