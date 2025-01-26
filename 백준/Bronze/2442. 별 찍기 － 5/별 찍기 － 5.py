@@ -1,0 +1,1 @@
+for i in range(n:=int(input())):print(' '*(n-i-1)+'*'*(2*i+1))
