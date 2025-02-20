@@ -1,0 +1,1 @@
+for _ in[0]*int(input()):i=input();print(i+'.'*(i[-1]>'.'))
