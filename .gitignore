@@ -3,3 +3,5 @@
 out
 build
 test*
+target
+src/main.rs
