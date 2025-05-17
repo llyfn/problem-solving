@@ -24,8 +24,7 @@ fn det(a: &Point, b: &Point) -> i64 {
 
 fn angle_cmp(a: &Point, b: &Point) -> std::cmp::Ordering {
     let d = det(a, b);
-    if d > 0 { std::cmp::Ordering::Less }
-    else if d < 0 { std::cmp::Ordering::Greater }
+    if d != 0 { d.cmp(&0).reverse() }
     else { (a.tx * a.tx + a.ty * a.ty).cmp(&(b.tx * b.tx + b.ty * b.ty)) }
 }
 
@@ -42,17 +41,13 @@ fn main() {
         points[i].tx = points[i].x - points[0].x;
         points[i].ty = points[i].y - points[0].y;
     }
-    points[1..].sort_by(|a, b| angle_cmp(a, b));
+    points[1..].sort_by(angle_cmp);
     let mut stack = vec![0, 1];
     let mut ed = 2;
     while ed < n {
-        while stack.len() >= 2 {
-            let mid = stack.pop().unwrap();
-            let st = *stack.last().unwrap();
-            if ccw(&points[st], &points[mid], &points[ed]) > 0 {
-                stack.push(mid);
-                break;
-            }
+        while let [.., st, mid] = stack[..] {
+            if ccw(&points[st], &points[mid], &points[ed]) > 0 { break; }
+            stack.pop();
         }
         stack.push(ed);
         ed += 1;
