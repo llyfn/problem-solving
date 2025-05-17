@@ -37,7 +37,7 @@ fn main() {
     for _ in 0..n {
         points.push(Point { x: sc.read::<i64>(), y: sc.read::<i64>(), tx: 0, ty: 0 });
     }
-    points.sort_by(|a, b| if a.y != b.y { a.y.cmp(&b.y) } else { a.x.cmp(&b.x) });
+    points.sort_by(|a, b| a.y.cmp(&b.y).then(a.x.cmp(&b.x)));
     for i in 0..n {
         points[i].tx = points[i].x - points[0].x;
         points[i].ty = points[i].y - points[0].y;
