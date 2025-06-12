@@ -5,3 +5,5 @@ build
 test*
 target
 src/main.rs
+cargo.lock
+cargo.toml
