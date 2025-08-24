@@ -1,0 +1,1 @@
+for n in map(int,open(0)):print(((1<<n+1)+(-1)**n)//3)
