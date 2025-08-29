@@ -1,0 +1,1 @@
+for *_,i in sorted([[*map(int,input().split()),i]for i in range(int(input()))],key=lambda x:(x[0]**2+x[1]**2)/x[2]**2):print(i+1)
