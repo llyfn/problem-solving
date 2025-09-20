@@ -1,0 +1,1 @@
+n=int(input());m=n//2;print(*[m-i//2if i%2else m+1+i//2for i in range(n)])
