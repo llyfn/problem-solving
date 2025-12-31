@@ -26,12 +26,18 @@ fun main() = with(Scanner(System.`in`)) {
             }
         }
         if (dist[n + m + 1] == Int.MAX_VALUE) break
-        tf += 1
+        var p = Int.MAX_VALUE
         var u = n + m + 1
         while (u > 0) {
-            flow[par[u]][u] += 1
-            flow[u][par[u]] -= 1
-            tc += cost[par[u]][u]
+            p = minOf(p, cap[par[u]][u] - flow[par[u]][u])
+            u = par[u]
+        }
+        tf += p
+        u = n + m + 1
+        while (u > 0) {
+            flow[par[u]][u] += p
+            flow[u][par[u]] -= p
+            tc += p * cost[par[u]][u]
             u = par[u]
         }
     }
