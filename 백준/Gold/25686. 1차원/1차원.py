@@ -1,0 +1,1 @@
+print(*sorted(range(1,int(input())+1),key=lambda x:f'{x:b}'[::-1]))
