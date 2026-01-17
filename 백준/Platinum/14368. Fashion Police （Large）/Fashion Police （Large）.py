@@ -1,0 +1,1 @@
+for t in range(int(input())):J,P,S,K=map(int,input().split());o=[f"{j+1} {p+1} {(j+p+k)%S+1}"for j in range(J)for p in range(P)for k in range(min(S,K))];print(f"Case #{t+1}: {len(o)}",*o,sep='\n')
