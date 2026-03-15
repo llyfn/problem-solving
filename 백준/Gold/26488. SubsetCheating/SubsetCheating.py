@@ -1,4 +1,10 @@
-from math import comb
-n, a, b = map(int, input().split())
+N, a, b = map(int, input().split())
 m = 10**9 + 7
-print(0 if a < b else (comb(b + n - 1, n - 1) % m) * (comb((a - b) + n - 1, n - 1) % m) % m)
+def comb(n, r):
+    r = min(r, n - r)
+    x = y = 1
+    for i in range(r):
+        x = x * (n - i) % m
+        y = y * (i + 1) % m
+    return x * pow(y, m - 2, m) % m
+print(0 if a < b else comb(N + b - 1, N - 1) * comb(N + a - b - 1, N - 1) % m)
