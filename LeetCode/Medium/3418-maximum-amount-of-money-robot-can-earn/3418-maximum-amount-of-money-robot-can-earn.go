@@ -8,7 +8,7 @@ func maximumAmount(coins [][]int) int {
 			for k := 0; k < 3; k++ {
 				res := -int(1e9)
 				if i == 0 && j == 0 {
-					res = 0
+					res = v
 					if k > 0 {
 						res = max(0, v)
 					}
@@ -23,12 +23,6 @@ func maximumAmount(coins [][]int) int {
 					res = max(res, dp[i][j-1][k]+v)
 					if k > 0 {
 						res = max(res, dp[i][j-1][k-1])
-					}
-				}
-				if i == 0 && j == 0 {
-					res = v
-					if k > 0 {
-						res = max(0, v)
 					}
 				}
 				dp[i][j][k] = int(res)
