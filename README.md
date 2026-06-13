@@ -21,6 +21,7 @@
 | [0139-word-break](https://github.com/llyfn/problem-solving/tree/main/LeetCode/Medium/0139-word-break/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/llyfn/problem-solving/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
 | [0211-design-add-and-search-words-data-structure](https://github.com/llyfn/problem-solving/tree/main/LeetCode/Medium/0211-design-add-and-search-words-data-structure/) | Medium |
+| [0386-lexicographical-numbers](https://github.com/llyfn/problem-solving/tree/main/LeetCode/Medium/0386-lexicographical-numbers/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -43,4 +44,5 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0211-design-add-and-search-words-data-structure](https://github.com/llyfn/problem-solving/tree/main/LeetCode/Medium/0211-design-add-and-search-words-data-structure/) | Medium |
+| [0386-lexicographical-numbers](https://github.com/llyfn/problem-solving/tree/main/LeetCode/Medium/0386-lexicographical-numbers/) | Medium |
 <!---LeetCode Topics End-->
