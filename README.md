@@ -45,4 +45,13 @@
 | ------- | ------- |
 | [0211-design-add-and-search-words-data-structure](https://github.com/llyfn/problem-solving/tree/main/LeetCode/Medium/0211-design-add-and-search-words-data-structure/) | Medium |
 | [0386-lexicographical-numbers](https://github.com/llyfn/problem-solving/tree/main/LeetCode/Medium/0386-lexicographical-numbers/) | Medium |
+| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/llyfn/problem-solving/tree/main/LeetCode/Medium/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/llyfn/problem-solving/tree/main/LeetCode/Medium/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/llyfn/problem-solving/tree/main/LeetCode/Medium/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
 <!---LeetCode Topics End-->
