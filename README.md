@@ -6,6 +6,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/llyfn/problem-solving/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
+| [0053-maximum-subarray](https://github.com/llyfn/problem-solving/tree/main/LeetCode/Medium/0053-maximum-subarray/) | Medium |
 | [0139-word-break](https://github.com/llyfn/problem-solving/tree/main/LeetCode/Medium/0139-word-break/) | Medium |
 ## String
 | Problem Name | Difficulty |
@@ -36,6 +37,7 @@
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0053-maximum-subarray](https://github.com/llyfn/problem-solving/tree/main/LeetCode/Medium/0053-maximum-subarray/) | Medium |
 | [0139-word-break](https://github.com/llyfn/problem-solving/tree/main/LeetCode/Medium/0139-word-break/) | Medium |
 ## Memoization
 | Problem Name | Difficulty |
@@ -59,4 +61,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3612-process-string-with-special-operations-i](https://github.com/llyfn/problem-solving/tree/main/LeetCode/Medium/3612-process-string-with-special-operations-i/) | Medium |
+## Divide and Conquer
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0053-maximum-subarray](https://github.com/llyfn/problem-solving/tree/main/LeetCode/Medium/0053-maximum-subarray/) | Medium |
 <!---LeetCode Topics End-->
