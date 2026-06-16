@@ -14,6 +14,7 @@
 | [0139-word-break](https://github.com/llyfn/problem-solving/tree/main/LeetCode/Medium/0139-word-break/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/llyfn/problem-solving/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
 | [0211-design-add-and-search-words-data-structure](https://github.com/llyfn/problem-solving/tree/main/LeetCode/Medium/0211-design-add-and-search-words-data-structure/) | Medium |
+| [3612-process-string-with-special-operations-i](https://github.com/llyfn/problem-solving/tree/main/LeetCode/Medium/3612-process-string-with-special-operations-i/) | Medium |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -54,4 +55,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/llyfn/problem-solving/tree/main/LeetCode/Medium/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3612-process-string-with-special-operations-i](https://github.com/llyfn/problem-solving/tree/main/LeetCode/Medium/3612-process-string-with-special-operations-i/) | Medium |
 <!---LeetCode Topics End-->
